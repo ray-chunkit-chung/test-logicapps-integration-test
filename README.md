@@ -17,3 +17,14 @@ dotnet add package IPB.LogicApp.Standard.Testing --version 1.0.690
 
 ```
 
+
+# Parameters
+ - ClientID = a client id for an Azure AD app registration which you have set up
+ - ClientSecret = The secret for your azure ad app registration
+ - TenantId = The tenant id for your azure ad
+ - LogicAppName = The logic app name in Azure
+ - ResourceGroupName = The resource group that the logic app lives in
+ - SubscriptionId = The subscription id the logic app lives in
+ - WorkflowName = The name of the workflow within the logic app you want to test
+
+
